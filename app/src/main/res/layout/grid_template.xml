@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/grid_imagen"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/deadpool"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/grid_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/grid_imagen"
+        android:text="Titulo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/grid_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/grid_imagen"
+        android:layout_below="@id/grid_titulo"
+        android:text="Subtitulo"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.andresf.ObejoGames.PersonaFr">
+
+
+    <EditText
+        android:id="@+id/nombre"
+        style="@style/editText"
+        android:ems="10"
+        android:hint="GamerTag"
+        android:freezesText="true"
+        android:gravity="center">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/telefono"
+        style="@style/editText"
+        android:layout_below="@+id/nombre"
+        android:ems="10"
+        android:hint="  Teléfono"
+        android:inputType="number"
+        tools:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/editText"
+        android:layout_below="@+id/telefono"
+        android:ems="10"
+        android:hint="Email"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/Button01"
+        style="@style/boton"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_alignRight="@+id/Button03"
+        android:layout_below="@+id/button1"
+        android:text="iniciar sesion" />
+
+    <Button
+        android:id="@+id/Button02"
+        style="@style/boton"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignRight="@+id/Button01"
+        android:layout_below="@+id/Button01"
+        android:text="Eliminar Persona" />
+
+    <Button
+        android:id="@+id/Button03"
+        style="@style/boton"
+        android:layout_below="@+id/Button02"
+        android:layout_centerHorizontal="true"
+        android:text="Actualizar Persona" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/boton"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_alignRight="@+id/Button01"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="28dp"
+        android:text="registrarse" />
+
+</RelativeLayout>

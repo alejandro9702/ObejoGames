@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">ObejoGames</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="shapeName">
+        <item>WATCH DOGS</item>
+        <item>GTA 5</item>
+        <item>METRO REDUX</item>
+        <item>NBA 2K17</item>
+        <item>RIDE 2 </item>
+    </string-array>
+
+    <string-array name="shapeImage">
+        <item>dogs</item>
+        <item>gta</item>
+        <item>metro</item>
+        <item>nba</item>
+        <item>ride</item>
+    </string-array>
+
+    <string-array name="shapeDesc">
+        <item>$70.000</item>
+        <item>$90.000</item>
+        <item>$130.000</item>
+        <item>$120.000</item>
+        <item>$150.000</item>
+    </string-array>
+
+    <!-- xbox-->
+
+    <string-array name="shapeName_Xbox">
+        <item>call of duty: ghost</item>
+        <item>deadpool</item>
+        <item>Mortal Kombat X</item>
+        <item>Minecraft</item>
+        <item>Gow 4</item>
+    </string-array>
+
+    <string-array name="shapeImage_xbox">
+        <item>ghost</item>
+        <item>deadpool</item>
+        <item>mortal</item>
+        <item>mincraft</item>
+        <item>gow4</item>
+    </string-array>
+
+    <string-array name="shapeDesc_xbox">
+        <item>$80.900</item>
+        <item>$110.900</item>
+        <item>$130.900</item>
+        <item>$60.900</item>
+        <item>$145.900</item>
+    </string-array>
+</resources>
